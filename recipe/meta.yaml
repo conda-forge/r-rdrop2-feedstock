@@ -1,4 +1,4 @@
-{% set version = "0.8.1" %}
+{% set version = "0.8.2.1" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,12 +11,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/rdrop2_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/rdrop2/rdrop2_{{ version }}.tar.gz
-  sha256: d477d043ab4f9d3f5d8bd19050a77bab82eabb92ce26cbc904a4365426d39eb8
+  sha256: b9add765fe8e7c966f0d36eef939a9e38f253958bd2a3c656b890cbb0366300b
 
 build:
   noarch: generic
   merge_build_host: true  # [win]
-  number: 1003
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
