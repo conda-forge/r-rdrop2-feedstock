@@ -1,11 +1,11 @@
-About r-rdrop2
-==============
+About r-rdrop2-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rdrop2-feedstock/blob/main/LICENSE.txt)
 
 Home: https://CRAN.R-project.org/package=rdrop2
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rdrop2-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides full programmatic access to the 'Dropbox' file hosting platform <https://dropbox.com>, including support for all standard file operations.
 
